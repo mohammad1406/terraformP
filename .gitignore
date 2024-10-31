@@ -1,7 +1,5 @@
 variables.tf
-terraform.tfstate.backup
 .terraform
 terraform.tfstate
-.terraform.lock.hcl
 .DS_Store
 .terraform.lock.hcl
