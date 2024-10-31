@@ -42,7 +42,7 @@ resource "alicloud_nlb_server_group_server_attachment" "line_nlb_http" {
   server_type     = "Ecs"
   server_id       = alicloud_instance.http[count.index].id
   description     = "http"
-  port            = 5000
+  port            = 80
   server_group_id = alicloud_nlb_server_group.http.id
   weight          = 100
 }
